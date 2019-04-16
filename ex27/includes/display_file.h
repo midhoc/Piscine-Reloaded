@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   display_file.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: midounhocine <mdho@hotmail.fr>             +#+  +:+       +#+        */
+/*   By: hmidoun <hmidoun@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/14 22:44:29 by midounhoc         #+#    #+#             */
-/*   Updated: 2019/04/14 23:26:03 by midounhoc        ###   ########.fr       */
+/*   Updated: 2019/04/15 13:25:58 by hmidoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,12 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 
-# define    BUF_SIZE 1024 
+# define BUF_SIZE 1024
 
-int     ft_strcmp(const char *s1, const char *s2);
-void    ft_putchar(char c);
-void    ft_putstr(char const *s);
-int     tst_param(int argc);
-void    print_file(int fd);
+int		ft_strcmp(const char *s1, const char *s2);
+void	ft_putchar(char c);
+void	ft_putstr(char *s);
+int		tst_param(int argc);
+void	print_file(int fd);
 
 #endif
