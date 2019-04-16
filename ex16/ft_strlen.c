@@ -6,11 +6,9 @@
 /*   By: hmidoun <hmidoun@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/05 21:15:06 by hmidoun           #+#    #+#             */
-/*   Updated: 2019/04/16 10:20:30 by hmidoun          ###   ########.fr       */
+/*   Updated: 2019/04/16 10:26:50 by hmidoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	ft_putchar(char c);
 
 int		ft_strlen(char *str)
 {
